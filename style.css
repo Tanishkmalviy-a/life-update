@@ -1,0 +1,13 @@
+* {
+    display: flexbox;
+}
+
+
+.main {
+  height: 100px;
+  width: 100px;
+  background-color: plum;
+  opacity: 50%;
+ border-radius: 20px;
+
+}
