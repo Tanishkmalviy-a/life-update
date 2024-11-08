@@ -11,6 +11,28 @@ body {
   /* place-items: center; */
 }
 
+.main {
+  display: grid;
+    background-color: #d9d9d9;
+    
+  border-radius: 10px;
+ width: 20rem;
+ height: 20rem;
+ position: relative;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  /* background-color: #fff; */
+  /* border-radius: 20rem; */
+  margin: 10px;
+width: 100%;
+  max-width: 400rem;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -19,6 +41,7 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 2rem;
   transition: all 0.3s linear;
+
 }
 
 .switch::after {
@@ -33,15 +56,19 @@ body {
   transition: all 0.3s linear;
 }
 
-
-input[type=checkbox]:checked + ::after {
+input[type="checkbox"]:checked + ::after {
   translate: 2rem 0;
 }
 
-input[type=checkbox]:checked + .switch {
+input[type="checkbox"]:checked + .switch {
   background-color: rgb(0, 242, 125);
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
+
+}
+ 
+lable.switch{
+  max-width: ;
 }
